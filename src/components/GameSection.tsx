@@ -8,7 +8,7 @@ const games = [
     players: "2.3k",
     icon: "🍓",
     gradient: "from-red-400 to-pink-500",
-    image: "/public/donuts.d0e2c5abf27d2ce5b2fa.webp"
+    image: "https://socialboynu.site/static/media/donuts.d0e2c5abf27d2ce5b2fa.png"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const games = [
     players: "1.8k",
     icon: "🍀",
     gradient: "from-green-400 to-emerald-500",
-    image: "/public/donuts.d0e2c5abf27d2ce5b2fa.webp"
+    image: "https://socialboynu.site/static/media/donuts.d0e2c5abf27d2ce5b2fa.png"
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const games = [
     players: "3.1k",
     icon: "💎",
     gradient: "from-blue-400 to-purple-500",
-    image: "/public/donuts.d0e2c5abf27d2ce5b2fa.webp  "
+    image: "https://socialboynu.site/static/media/donuts.d0e2c5abf27d2ce5b2fa.png"
   }
 ];
 
