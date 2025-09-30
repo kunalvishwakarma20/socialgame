@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -25,14 +26,12 @@ export default function Hero() {
           READY TO PLAY – COMPLETELY FREE AND JUST FOR FUN!
         </p>
 
-        <a
-          href="https://www.playngo.com/games"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to="/game"
           className="inline-block bg-black text-white px-12 py-4 rounded-full text-xl font-bold hover:bg-gray-800 transition-all transform hover:scale-105 shadow-2xl"
         >
           Play Now
-        </a>
+        </Link>
       </div>
     </section>
   );
