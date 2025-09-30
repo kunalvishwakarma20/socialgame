@@ -17,7 +17,7 @@ const games = [
     players: "1.8k",
     icon: "🍀",
     gradient: "from-green-400 to-emerald-500",
-    image: "https://socialboynu.site/static/media/donuts.d0e2c5abf27d2ce5b2fa.png"
+    image: "https://socialboynu.site/static/media/FooterImage.c235541338f62efbe9a3.png"
   },
   {
     id: 3,
@@ -71,11 +71,10 @@ export default function GameSection() {
 
               {/* Game Info */}
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{game.name}</h3>
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">{game.name}</h3>
                 <Link
                   to={game.id === 1 ? "/game" : game.id === 2 ? "/game2" : game.id === 3 ? "/game3" : "#"}
-                  className="w-full inline-block bg-green-500 text-white font-bold py-3 rounded-xl hover:bg-green-600 transition-all transform hover:scale-105"
-                >
+                  className="w-full inline-block bg-emerald-400 text-white font-bold py-12 px-6 rounded-full hover:bg-emerald-500 transition-all transform hover:scale-105 text-5xl">
                   Play Free
                 </Link>
               </div>
