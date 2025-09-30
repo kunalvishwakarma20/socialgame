@@ -5,7 +5,7 @@ export default function Hero() {
     <section 
       className="relative min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{ 
-        backgroundImage: "url('https://img.freepik.com/premium-photo/cartoon-girl-playing-slot-machine-with-many-balls-it_916191-409618.jpg')" 
+        backgroundImage: "url('https://cdn.leonardo.ai/users/4a6b6ec0-ba43-41ce-a8bd-46b891811dcb/generations/2114e80d-644b-419d-997a-5b0efc4a54fc/segments/4:4:1/Lucid_Origin_createa_an_imahge_same_like_this_with_differnet_c_3.jpg')" 
       }}
     >
       {/* Dark Overlay for Readability */}

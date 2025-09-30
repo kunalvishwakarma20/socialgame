@@ -32,20 +32,23 @@ const games = [
 
 export default function GameSection() {
   return (
-    <section className="relative py-20 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+    <section className="relative py-20 bg-gradient-to-b from-gray-70 to-white overflow-hidden" style={{backgroundImage:"url('https://socialboynu.site/static/media/bgImage.011a7dce8280424afbc0.011a7dce8280424afbc0.png')"}}>
+      {/* Black overlay with 50% opacity */}
+      <div className="absolute inset-0 bg-black opacity-95 pointer-events-none"></div>
+
       {/* Pattern Overlay */}
       <div
-        className="absolute inset-0 bg-[url('/cubes.png')] pointer-events-none"
+        className="absolute inset-0 bg-[url('')] pointer-events-none"
         style={{ backgroundSize: '200px 200px' }}
       ></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
             POPULAR SPILL
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-white max-w-2xl mx-auto">
             Explore our selection of fun casino games – all free to play!
           </p>
         </div>
@@ -58,7 +61,7 @@ export default function GameSection() {
               className="group relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden"
             >
               {/* Game Card Background with Image */}
-              <div className="relative overflow-hidden ">
+              <div className="relative overflow-hidden">
                 <img 
                   src={game.image} 
                   alt={game.name} 
